@@ -5,7 +5,7 @@ using UnityEngine;
 //泛型约束，需要继承者是类并且有一个无参构造函数
 public class BaseManager<T> where T:class,new()
 {
-    public static T instance;
+    private static T instance;
     public static T Instance
     {
         get
