@@ -19,9 +19,13 @@ public abstract class BaseManagerConSecure<T> where T:class
                 Type type = typeof(T);
                 //通过Type来获取私有构造函数
                 ConstructorInfo constructorInfo = type.GetConstructor(BindingFlags.Instance|BindingFlags.NonPublic,null,Type.EmptyTypes,null);
-                //执行构造函数并赋值
-                instance = constructorInfo.Invoke(null) as T;
-
+                if(constructorInfo != null){
+                    //执行构造函数并赋值
+                    instance = constructorInfo.Invoke(null) as T;
+                }
+                else{
+                    Debug.LogError("没有得到对应的无参构造函数");
+                }
                 //还可以通过Activator来快捷实例化
                 // instance = Activator.CreateInstance(type,true) as T;
             }
