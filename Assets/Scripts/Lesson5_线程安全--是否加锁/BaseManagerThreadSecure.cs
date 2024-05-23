@@ -9,6 +9,7 @@ public class BaseManagerThreadSecure<T> where T:class
     //不可以直接通过Instance!=null进行判断，因为如果通过Instance来判断，如果instance为null，会执行反射并进行构造行成循环
     protected bool InstancIsNull => instance == null;
     //readonly是为了防止物体被修改
+    //可以被子类用于加锁
     protected static readonly object lockObj = new object();
     private static T instance;
     public static T Instance
@@ -33,5 +34,4 @@ public class BaseManagerThreadSecure<T> where T:class
             return instance;
         }
     }
-
 }
