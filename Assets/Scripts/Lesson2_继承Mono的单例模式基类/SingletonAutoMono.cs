@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//×Ô¶¯¹ÒÔØÊ½½Å±¾£¬²»ĞèÒªAwake³õÊ¼»¯instance,»áÔÚµÚÒ»´ÎÊ¹ÓÃ¸ÃInstanceÊµÀı»¯ÎïÌå²¢×Ô¶¯¹ÒÔØ½Å±¾
-//ÎŞĞèµ£ĞÄÇĞ³¡¾°´øÀ´µÄÎÊÌâ
+//è‡ªåŠ¨æŒ‚è½½å¼è„šæœ¬ï¼Œä¸éœ€è¦Awakeåˆå§‹åŒ–instance,ä¼šåœ¨ç¬¬ä¸€æ¬¡ä½¿ç”¨è¯¥Instanceå®ä¾‹åŒ–ç‰©ä½“å¹¶è‡ªåŠ¨æŒ‚è½½è„šæœ¬
+//æ— éœ€æ‹…å¿ƒåˆ‡åœºæ™¯å¸¦æ¥çš„é—®é¢˜
 public class SingletonAutoMono<T> : MonoBehaviour where T:MonoBehaviour
 {
     private static T instance;
@@ -11,7 +11,7 @@ public class SingletonAutoMono<T> : MonoBehaviour where T:MonoBehaviour
         get
         {
             if(instance == null){
-                //typeof(T).ToString()¿ÉÒÔÊä³öTµÄÀàÃû
+                //typeof(T).ToString()å¯ä»¥è¾“å‡ºTçš„ç±»å
                 GameObject obj = new GameObject(typeof(T).ToString());
                 instance = obj.AddComponent<T>();
                 DontDestroyOnLoad(obj);

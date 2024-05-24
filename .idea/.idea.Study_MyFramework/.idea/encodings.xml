@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson2_继承Mono的单例模式基类/SingletonAutoMono.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson6_公共Mono概述/Lesson6.cs" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson6_公共Mono概述/MonoMgr.cs" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson7_缓存池模块（对象池）/Lesson7.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson7_缓存池模块（对象池）/PoolMgr.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Main.cs" charset="GB2312" />
   </component>
 </project>
