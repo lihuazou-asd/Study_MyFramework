@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson7_缓存池模块（对象池）/PoolMgr.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson8_对象池优化-窗口布局/Lesson8.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson8_对象池优化-窗口布局/PoolMgr.cs" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson9_对象池优化-对象上限/Lesson9.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Main.cs" charset="GB2312" />
   </component>
 </project>

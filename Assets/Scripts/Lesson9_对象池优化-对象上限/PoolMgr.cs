@@ -61,7 +61,7 @@ public class PoolData
         }
         else
         {
-            //取0索引的对象 代表的就是使用时间最长的对象
+            //取下标为0的索引的对象 代表的就是使用时间最长的对象
             obj = usedList[0];
             //并且把它从使用着的对象中移除
             usedList.RemoveAt(0);
@@ -131,6 +131,10 @@ public class PoolMgr : BaseManagerConSecure<PoolMgr>
     /// <returns>从缓存池中取出的对象</returns>
     public GameObject GetObj(string name, int maxNum = 50)
     {
+        //如果根物体为空 就创建
+        if (poolObj == null && isOpenLayout)
+            poolObj = new GameObject("Pool");
+        
         GameObject obj;
 
         #region 加入了数量上限后的逻辑判断
@@ -187,9 +191,6 @@ public class PoolMgr : BaseManagerConSecure<PoolMgr>
     /// <param name="obj">希望放入的对象</param>
     public void PushObj(GameObject obj)
     {
-        //如果根物体为空 就创建
-        if (poolObj == null && isOpenLayout)
-            poolObj = new GameObject("Pool");
 
         #region 因为失活 父子关系都放入了 抽屉对象中处理 所以不需要再处理这些内容了
         ////总之，目的就是要把对象隐藏起来
