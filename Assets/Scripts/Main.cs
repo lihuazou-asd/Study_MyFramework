@@ -14,14 +14,14 @@ public class Main : MonoBehaviour
 
         // TestAutoMono1.Instance.Speak();
         // TestAutoMono2.Instance.Speak();
-
-        TestMgrConSecure1.Instance.Speak();
-
-        //利用反射来获取类型Type
-        Type type = typeof(TestMgrConSecure1);
-
-        //还可以通过Activator来快捷实例化
-        Activator.CreateInstance(type,true);
+        //
+        // TestMgrConSecure1.Instance.Speak();
+        //
+        // //利用反射来获取类型Type
+        // Type type = typeof(TestMgrConSecure1);
+        //
+        // //还可以通过Activator来快捷实例化
+        // Activator.CreateInstance(type,true);
         
     }
 
