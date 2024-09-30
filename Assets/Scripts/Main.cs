@@ -17,10 +17,10 @@ public class Main : MonoBehaviour
         //
         // TestMgrConSecure1.Instance.Speak();
         //
-        // //利用反射来获取类型Type
+        // 鍒╃敤鍙嶅皠鏉ヨ幏鍙栫被鍨婽ype
         // Type type = typeof(TestMgrConSecure1);
         //
-        // //还可以通过Activator来快捷实例化
+        // 杩樺彲浠ラ�氳繃Activator鏉ュ揩鎹峰疄渚嬪寲
         // Activator.CreateInstance(type,true);
         
     }
