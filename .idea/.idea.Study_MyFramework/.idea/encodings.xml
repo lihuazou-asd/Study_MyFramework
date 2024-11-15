@@ -22,6 +22,9 @@
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Other.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Player.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Task.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson17_Resource资源加载模块_具体实现/Lesson16.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson17_Resource资源加载模块_具体实现/Main.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson17_Resource资源加载模块_具体实现/ResMgr.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson1_不继承Mono的单例模式基类/Lesson1.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson2_继承Mono的单例模式基类/Lesson2.cs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson2_继承Mono的单例模式基类/SingletonAutoMono.cs" charset="UTF-8" />
