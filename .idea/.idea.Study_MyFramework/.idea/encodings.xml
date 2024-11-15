@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson10_对象池优化-思考题/Lesson10.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson10_对象池优化-思考题/PoolMgr.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson10_对象池优化-思考题/PoolObj.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson11_【事件中心模块】主要作用和基本原理/Monster.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson11_【事件中心模块】主要作用和基本原理/Other.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson11_【事件中心模块】主要作用和基本原理/Player.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson11_【事件中心模块】主要作用和基本原理/Task.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson12_事件中心模块具体实现/EventCenter.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson12_事件中心模块具体实现/Lesson12.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson12_事件中心模块具体实现/Monster.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson12_事件中心模块具体实现/Other.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson12_事件中心模块具体实现/Player.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson12_事件中心模块具体实现/Task.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson13_事件中心模块优化_传递参数/Lesson13.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson14_事件中心模块优化_参数类型自定义/Lesson14.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/E_EventType.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Lesson15.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Monster.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Other.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Player.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson15_事件中心模块优化_事件名/Task.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson17_Resource资源加载模块_具体实现/Lesson16.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson17_Resource资源加载模块_具体实现/Main.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson17_Resource资源加载模块_具体实现/ResMgr.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson1_不继承Mono的单例模式基类/Lesson1.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson2_继承Mono的单例模式基类/Lesson2.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson2_继承Mono的单例模式基类/SingletonAutoMono.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson6_公共Mono概述/Lesson6.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson6_公共Mono概述/MonoMgr.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson7_缓存池模块（对象池）/Lesson7.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson7_缓存池模块（对象池）/PoolMgr.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson8_对象池优化-窗口布局/Lesson8.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson8_对象池优化-窗口布局/PoolMgr.cs" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Lesson9_对象池优化-对象上限/Lesson9.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Main.cs" charset="UTF-8" />
+  </component>
+</project>
